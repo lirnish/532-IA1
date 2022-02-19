@@ -1,6 +1,5 @@
 import altair as alt
 from dash import Dash, dcc, html, Input, Output
-from vega_datasets import data
 import pandas as pd
 
 alt.data_transformers.disable_max_rows()
